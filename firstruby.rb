@@ -18,7 +18,7 @@ include_recipe "java"
 
 apt_repository "jenkins" do
   uri "http://pkg.jenkins-ci.org/debian"
-  key "http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key"
+  key "http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key"}}
   components ["binary/"]
   action :add
 end
