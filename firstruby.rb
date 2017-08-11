@@ -1,1 +1,1 @@
-puts "Hello World"
+put56 "Hello World"
